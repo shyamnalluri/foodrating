@@ -1,0 +1,11 @@
+BusinessType
+BusinessTypeID
+RatingValue
+RatingDate
+LocalAuthorityName
+
+btype = EstablishmentDetail.getElementsByTagName("BusinessType")[0]
+btypeid = EstablishmentDetail.getElementsByTagName("BusinessTypeID")[0]
+rating = EstablishmentDetail.getElementsByTagName("RatingValue")[0]
+ratingdate = EstablishmentDetail.getElementsByTagName("RatingDate")[0]
+Authorityname = EstablishmentDetail.getElementsByTagName("LocalAuthorityName")[0]
